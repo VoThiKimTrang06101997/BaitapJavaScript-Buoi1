@@ -1,0 +1,221 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear:both;
+}
+
+/* Bài 1 */
+.Bai1 h2{
+    color: green;
+}
+.Bai1__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Bai1__item:nth-child(1){
+    border-right: 2px solid black;
+}
+.Bai1__item:nth-child(2){
+    border-right: 2px solid black;
+}
+.Bai1__JavaScript{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Bai1__JavaScript button{
+    font-size: 18px;
+    background-color: pink;
+}
+.TienLuongNhanVien{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+/* Bài 2 */
+.Bai2 h2{
+    color: green;
+}
+.Bai2__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Bai2__item:nth-child(1){
+    border-right: 2px solid black;
+}
+.Bai2__item:nth-child(2){
+    border-right: 2px solid black;
+    margin-left: 15px;
+}
+.Bai2__JavaScript{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Bai2__JavaScript button{
+    font-size: 18px;
+    background-color: pink;
+    
+}
+.GiaTriTrungBinh{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+/* Bài 3 */
+.Bai3 h2{
+    color: green;
+}
+.Bai3__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Bai3__item:nth-child(1){
+    border-right: 2px solid black;
+}
+.Bai3__item:nth-child(2){
+    border-right: 2px solid black;
+    margin-left: 15px;
+}
+.Bai3__JavaScript{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Bai3__JavaScript button{
+    font-size: 18px;
+    background-color: pink;
+    
+}
+.SoTienQuyDoi{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+/* Bài 4 */
+.Bai4 h2{
+    color: green;
+}
+.Bai4__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Bai4__item:nth-child(1){
+    border-right: 2px solid black;
+}
+.Bai4__item:nth-child(2){
+    border-right: 2px solid black;
+    margin-left: 15px;
+}
+.Bai4__JavaScript{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Bai4__JavaScript input{
+    width: 200px;
+}
+.Bai4__JavaScript button{
+    font-size: 18px;
+    background-color: pink;
+    margin-top: 10px;
+    
+}
+.KetQuaChuVi{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2.5px;
+}
+.KetQuaDienTich{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* Bài 5 */
+.Bai5 h2{
+    color: green;
+}
+.Bai5__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Bai5__item:nth-child(1){
+    border-right: 2px solid black;
+}
+.Bai5__item:nth-child(2){
+    border-right: 2px solid black;
+    margin-left: 15px;
+}
+.Bai5__JavaScript{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Bai5__JavaScript button{
+    font-size: 18px;
+    background-color: pink;
+    
+}
+.TongHaiKySo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}

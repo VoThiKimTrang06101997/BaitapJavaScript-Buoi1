@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTapJavaScript</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+<body>
+    <!-- Bài 1 -->
+    <section class="Bai1">
+        <h1> <u>Bài 1</u> </h1>
+        <h2> <b>Mô hình 3 khối:</b> </h2>
+        <div class="Bai1__content">
+            <div class="Bai1__item">
+                <p> -Tiền lương nhân viên.</p>
+                <p> -Lương 1 ngày = 100.000.</p>
+                <p> -Số ngày làm.</p>
+            </div>
+            <div class="Bai1__item">
+                <p>B1: Tạo biến Tiền lương nhân viên và biến số ngày làm.</p>
+                <p>B2: Gán giá trị cho Lương 1 ngày = 100.000.</p>
+                <p>B3: Sử dụng công thức: tính lương = Lương 1 ngày*số ngày làm.</p>
+                <p>B4: In kết quả "Tiền lương Nhân viên" ra Console.</p>
+            </div>
+            <div class="Bai1__item">
+                <p>-Tiền lương nhân viên.</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Bai1__JavaScript">
+            <p id="luongMotNgay"> <b>Lương 1 ngày:</b> 100.000</p>
+            <p> <b>Số ngày làm:</b> <input type="text" id="soNgayLam" placeholder="Số ngày làm"></p>
+            <p id="tienLuongNhanVien"> <b>Tiền lương nhân viên là:</b> </p>
+            <button id="btnRun">Tính</button>
+        </div>
+        <br>
+        <div class="TienLuongNhanVien">
+            <div id="tienLuongNhanVien">
+                <sup> <b>$</b> </sup><span id="spanTienLuongNhanVien"> <b>0</b> </span>
+                <small> <b>mỗi người</b> </small>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <!-- Bài 2 -->
+    <section class="Bai2">
+        <h1> <u>Bài 2</u> </h1>
+        <h2> <b>Mô hình 3 khối:</b> </h2>
+        <div class="Bai2__content">
+            <div class="Bai2__item">
+                <p> -5 số thực.</p>
+                <p> -Trung bình của 5 số thực.</p>
+            </div>
+            <div class="Bai2__item">
+                <p>B1: Tạo biến số thực cho 5 số.</p>
+                <p>B2: Gán giá trị cho 5 số thực.</p>
+                <p>B3: Sử dụng công thức tính giá trị trung bình của 5 số nhập vào chia cho 5: (a1+a2+a3+a4+a5)/5 hay
+                    dùng hàm Average(a1,a2,a3,a4,a5).</p>
+                <p>B4: In kết quả "Trung bình của 5 số thực" ra Console.</p>
+            </div>
+            <div class="Bai2__item">
+                <p>-Giá trị trung bình của 5 số thực.</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Bai2__JavaScript">
+            <p> <b>Số thực thứ nhất:</b> <input type="text" id="soThucThuNhat" placeholder="Số thực thứ nhất"></p>
+            <p> <b>Số thực thứ hai:</b> <input type="text" id="soThucThuHai" placeholder="Số thực thứ hai"></p>
+            <p> <b>Số thực thứ ba:</b> <input type="text" id="soThucThuBa" placeholder="Số thực thứ ba"></p>
+            <p> <b>Số thực thứ tư:</b> <input type="text" id="soThucThuTu" placeholder="Số thực thứ tư"></p>
+            <p> <b>Số thực thứ năm:</b> <input type="text" id="soThucThuNam" placeholder="Số thực thứ năm"></p>
+            <p id="giaTriTrungBinh"> <b>Giá trị Trung Bình của 5 số thực là:</b> </p>
+            <button id="btnChay">Tính</button>
+        </div>
+        <br>
+        <div class="GiaTriTrungBinh">
+            <div id="giaTriTrungBinh">
+                <span id="spanGiaTriTrungBinh"> <b>Giá trị Trung Bình của 5 số thực là: </b> </span>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <!-- Bài 3 -->
+    <section class="Bai3">
+        <h1> <u>Bài 3</u> </h1>
+        <h2> <b>Mô hình 3 khối:</b> </h2>
+        <div class="Bai3__content">
+            <div class="Bai3__item">
+                <p> -Nhập vào số tiền USD.</p>
+                <p> -Giá 1 USD = 23.500 VND.</p>
+            </div>
+            <div class="Bai3__item">
+                <p>B1: Tạo biến USD và biến Tổng tiền quy đổi sang VND.</p>
+                <p id="giaUSDHienNay">B2: Gán giá trị: 1 USD = 23.500 VND.</p>
+                <p>B3: Sử dụng công thức tính Tổng tiền quy đổi: 47.000VND = 2 USD*23.500.</p>
+                <p>B4: In kết quả "Số tiền sau quy đổi sang VND" ra Console.</p>
+            </div>
+            <div class="Bai3__item">
+                <p>Số tiền sau quy đổi sang VND.</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Bai3__JavaScript">
+            <p> <b>Giá USD hiện nay là:</b> 1 USD = 23.500 VND</p>
+            <p> <b>Số tiền USD:</b> <input type="text" id="soTienUSD" placeholder="Số tiền USD"></p>
+            <p id="soTienQuyDoi"> <b>Số Tiền Sau Quy Đổi Từ USD Sang VND là:</b> </p>
+            <button id="btn-run">Tính</button>
+        </div>
+        <br>
+        <div class="SoTienQuyDoi">
+            <div id="soTienQuyDoi">
+                <sup> <b>$</b> </sup><span id="spanSoTienQuyDoi"> <b>0</b> </span>
+                <small> <b>VND</b> </small>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <!-- Bài 4 -->
+    <section class="Bai4">
+        <h1> <u>Bài 4</u> </h1>
+        <h2> <b>Mô hình 3 khối:</b> </h2>
+        <div class="Bai4__content">
+            <div class="Bai4__item">
+                <p> -Nhập vào chiều dài hình chữ nhật.</p>
+                <p> -Nhập vào chiều rộng hình chữ nhật</p>
+            </div>
+            <div class="Bai4__item">
+                <p>B1: Tạo biến Chiều dài và Chiều rộng hình chữ nhật.</p>
+                <p>B2: Sử dụng công thức tính chu vi hình chữ nhật: (dài+rộng)*2.</p>
+                <p>B3: Sử dụng công thức tính diện tích hình chữ nhật: dài*rộng.</p>
+                <p>B4: In kết quả "Chu vi và Diện tích hình chữ nhật" ra Console.</p>
+            </div>
+            <div class="Bai4__item">
+                <p>-Chu vi hình chữ nhật.</p>
+                <p>-Diện tích hình chữ nhật.</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Bai4__JavaScript">
+            <p> <b>Chiều dài hình chữ nhật là:</b> <input type="text" id="chieuDai"
+                    placeholder="Chiều dài hình chữ nhật là:"></p>
+            <p> <b>Chiều rộng hình chữ nhật là:</b> <input type="text" id="chieuRong"
+                    placeholder="Chiều rộng hình chữ nhật là:"></p>
+            <p id="chuVi"> <b>Chu vi hình chữ nhật là:</b> </p>
+            <p id="dienTich"> <b>Diện tích hình chữ nhật là:</b> </p>
+            <button id="btn-chay">Tính</button>
+        </div>
+        <br>
+        <div class="KetQuaChuVi">
+            <div id="chuVi">
+                <b>Chu vi:</b> <span id="spanKetQuaChuVi">0</span>
+                <small> <b>cm<sup><b>2</b></sup></b> </small>
+            </div>
+        </div>
+        <div class="KetQuaDienTich">
+            <div id="dienTich">
+                <b>Diện tích:</b> <span id="spanKetQuaDienTich">0</span>
+                <small> <b>cm<sup><b>2</b></sup></b> </small>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <!-- Bài 5 -->
+    <section class="Bai5">
+        <h1> <u>Bài 5</u> </h1>
+        <h2> <b>Mô hình 3 khối:</b> </h2>
+        <div class="Bai5__content">
+            <div class="Bai5__item">
+                <p> -Số nguyên dương n có 2 ký số.</p>
+                <p> -Vd: 12 => Tổng là 1+2=3</p>
+                <p> -Vd: 44 => Tổng là 4+4=8</p>
+            </div>
+            <div class="Bai5__item">
+                <p>B1: Tạo biến n, hangchuc, hangDonvi, sum.</p>
+                <p>B2: Gán giá trị cho n.</p>
+                <p>B3: Tách số hàng chục theo công thức: hangChuc = Math.floor(n%100/10).</p>
+                <p>B4: Tách số hàng đơn vị theo công thức: hangDonVi = n%10.</p>
+                <p>B5: In kết quả Sum ra Console.</p>
+            </div>
+            <div class="Bai5__item">
+                <p>-Kết quả Sum (tổng 2 ký số).</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Bai5__JavaScript">
+            <p> <b>Một số có 2 chữ số là:</b> <input type="text" id="soHaiChuSo" placeholder="Một số có 2 chữ số"></p>
+            <p id="tongHaiKySo"> <b>Tổng 2 ký số của số vừa nhập là:</b> </p>
+            <button id="btn-thuchien">Tính Tổng</button>
+        </div>
+        <br>
+        <div class="TongHaiKySo">
+            <div id="tongHaiKySo">
+                <span id="spanTongHaiKySo"> <b>0</b> </span>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
